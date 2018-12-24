@@ -14,4 +14,5 @@
   <script src="assets/mbr-popup-btns/mbr-popup-btns.js"></script>
   <script src="assets/theme/js/script.js"></script>
   <script src="assets/slidervideo/script.js"></script>
+  <script src="js/jquery.zoom.js"></script>
   

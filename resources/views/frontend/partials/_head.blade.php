@@ -20,5 +20,6 @@
   <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
   <link href="assets/font/icon/css/all.css" rel="stylesheet"> 
   
-  
+	<link rel="stylesheet" href="css/zoom.css">
+
 </head>
