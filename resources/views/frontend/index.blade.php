@@ -91,21 +91,21 @@
                 <div class="card p-3 align-center col-12 col-md-6 col-lg-3">
                     <div class="panel-item p-3">
                         <div class="card-img pb-3">
-                            <a href="about-mission.html"><span class="mbr-iconfont mbri-globe-2" style="color: rgb(71, 65, 58); fill: rgb(71, 65, 58);"></span></a>
+                            <a href="{{url('mission')}}"><span class="mbr-iconfont mbri-globe-2" style="color: rgb(71, 65, 58); fill: rgb(71, 65, 58);"></span></a>
                         </div>
 
                         <div class="card-text">
                             <h3 class="pt-3 pb-3 mbr-fonts-style display-5">พันธกิจ</h3>
                         </div>                         
                     </div>
-                    <a href="about-mission.html"><span class="d-block p-2 bg-primary text-white display-4">รายละเอียด . . .</span></a>
+                    <a href="{{url('mission')}}"><span class="d-block p-2 bg-primary text-white display-4">รายละเอียด . . .</span></a>
                 </div>
 
 
                 <div class="card p-3 align-center col-12 col-md-6 col-lg-3">
                     <div class="panel-item p-3">
                         <div class="card-img pb-3">
-                            <a href="about-structure.html"><span class="mbr-iconfont mbri-bulleted-list" style="color: rgb(71, 65, 58); fill: rgb(71, 65, 58);"></span></a>
+                            <a href="{{url('structure')}}"><span class="mbr-iconfont mbri-bulleted-list" style="color: rgb(71, 65, 58); fill: rgb(71, 65, 58);"></span></a>
                         </div>
                         <div class="card-text">
                             <h3 class="pt-3 pb-3 mbr-fonts-style display-5">
@@ -113,13 +113,13 @@
                             </h3>
                         </div>
                     </div>
-                    <a href="about-structure.html"><span class="d-block p-2 bg-primary text-white display-4">รายละเอียด . . .</span></a>
+                    <a href="{{url('structure')}}"><span class="d-block p-2 bg-primary text-white display-4">รายละเอียด . . .</span></a>
                 </div>
 
                 <div class="card p-3 align-center col-12 col-md-6 col-lg-3">
                     <div class="panel-item p-3">
                         <div class="card-img pb-3">
-                            <a href="about-manager.html"><span class="mbr-iconfont mbri-user" style="color: rgb(71, 65, 58); fill: rgb(71, 65, 58);"></span></a>
+                            <a href="{{url('manager')}}"><span class="mbr-iconfont mbri-user" style="color: rgb(71, 65, 58); fill: rgb(71, 65, 58);"></span></a>
                         </div>
                         <div class="card-text">
                             <h3 class="pt-3 pb-3 mbr-fonts-style display-5">
@@ -127,14 +127,14 @@
                             </h3>
                         </div>
                     </div>
-                    <a href="about-manager.html"><span class="d-block p-2 bg-primary text-white display-4">รายละเอียด . . .</span></a>
+                    <a href="{{url('manager')}}"><span class="d-block p-2 bg-primary text-white display-4">รายละเอียด . . .</span></a>
                 </div>
 
 
                 <div class="card p-3 align-center col-12 col-md-6 col-lg-3">
                     <div class="panel-item p-3">
                         <div class="card-img pb-3">
-                            <a href="about-history.html"><span class="mbr-iconfont mbri-opened-folder" style="color: rgb(71, 65, 58); fill: rgb(71, 65, 58);"></span></a>
+                            <a href="{{url('history')}}"><span class="mbr-iconfont mbri-opened-folder" style="color: rgb(71, 65, 58); fill: rgb(71, 65, 58);"></span></a>
                         </div>
 
                         <div class="card-texts">
@@ -143,7 +143,7 @@
                             </h3>   
                         </div>
                     </div>
-                    <a href="about-history.html"><span class="d-block p-2 bg-primary text-white display-4">รายละเอียด . . .</span></a>
+                    <a href="{{url('history')}}"><span class="d-block p-2 bg-primary text-white display-4">รายละเอียด . . .</span></a>
                 </div>
             </div>
         </div>
@@ -151,9 +151,6 @@
 </section>
 
 <section class="mbr-section content4 cid-rc4WE5tgw1" id="content4-s">
-
-    
-
     <div class="container">
         <div class="media-container-row">
             <div class="title col-12 col-md-8">
@@ -167,11 +164,6 @@
 </section>
 
 <section class="features8 cid-rbYJPe5G75" id="features8-u">
-
-    
-
-    
-
     <div class="container pt-4 mt-2">
         <div class="media-container-row">
 
@@ -226,17 +218,12 @@
 </section>
 
 <section class="counters1 counters cid-rbWjP69Bsw" id="counters1-t">
-
-    
-
     <div class="mbr-overlay" style="opacity: 0.6; background-color: rgb(255, 255, 255);">
     </div>
 
     <div class="container">
         <h2 class="mbr-section-title pb-3 align-center mbr-fonts-style display-2"><strong>
             วารสาร</strong></h2>
-        
-
         <div class="container pt-4 mt-2">
             <div class="media-container-row">
                 <div class="card p-3 align-center col-12 col-md-6 col-lg-3">
@@ -299,9 +286,6 @@
 </section>
 
 <section class="mbr-section content4 cid-rc51DKBWeq" id="content4-t">
-
-    
-
         <div class="container">
             <div class="media-container-row">
                 <div class="title col-12 col-md-8">
@@ -312,13 +296,7 @@
     </section>
 
 <section class="features18 popup-btn-cards cid-rbWtKEorV0" id="features18-z">
-
-    
-
-    
     <div class="container">
-        
-        
         <div class="media-container-row pt-4">
             <div class="card p-3 col-12 col-md-6 col-lg-4">
                 <div class="card-wrapper ">
@@ -362,16 +340,11 @@
                     </div>
                 </div>
             </div>
-
-            
         </div>
     </div>
 </section>
 
 <section class="header4 cid-rbWpmiyScO " id="header4-x">
-
-    
-
     <div class="mbr-overlay" style="opacity: 0.6; background-color: rgb(239, 239, 239);">
     </div>
 
