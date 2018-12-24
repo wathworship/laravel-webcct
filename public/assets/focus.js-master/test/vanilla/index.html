@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>focus.js Test</title>
+        <link href='https://unpkg.com/cirrus-ui' rel='stylesheet' />
+        <link href='../../dist/styles/focus.min.css' rel='stylesheet'/>
+
+        <style>
+
+            figure {
+                min-height: 300px;
+            }
+
+            .icon .fa {
+                vertical-align: top;
+            }
+
+
+        </style>
+    </head>
+    <body>
+        
+        
+
+        <div class="content">
+            <space class="large"></space>
+            <h5 id="title" class="uppercase text-center">Work</h5>
+            <space class="large"></space>
+            <div class="row">
+
+				<figure class='focus-img smoother' style='background-image: url("https://images.unsplash.com/photo-1455459182396-ae46100617cb?auto=format&fit=crop&w=2560&q=100");'></figure>
+		  
+            </div>
+         
+        </div>
+
+        <space class="x-large"></space>
+        
+
+        
+        <script src='../../dist/vanilla/focus.min.js'></script>
+        <script src="https://use.fontawesome.com/a696b91557.js"></script>
+        <script>
+            Focus.init({
+                elementID: '',
+                zoomFactor: '250%'
+            });
+        </script>
+    </body>
+
+</html>
