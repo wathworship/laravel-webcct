@@ -2,9 +2,6 @@
 @extends('frontend.layouts.main')
 @section('content')
 <section class="features16 cid-rc611wrrVx" id="features16-v">
-    
-    
-    
     <div class="container align-center">
         <h2 class="pb-3 mbr-fonts-style mbr-section-title display-2"><strong>คณะผู้บริหาร</strong><br><strong><br></strong></h2>
         
@@ -117,9 +114,6 @@
 </section>
 
 <section class="features16 cid-rc61U8oEcs" id="features16-x">
-    
-    
-    
     <div class="container align-center">
         
         
@@ -174,6 +168,4 @@
     </div>
 </section>
 
-<div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;"><i></i></a></div>
-    <input name="animation" type="hidden">
 @endsection

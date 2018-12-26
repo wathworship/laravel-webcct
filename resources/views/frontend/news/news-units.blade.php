@@ -131,7 +131,6 @@
     </div>
 </section>
 
-
 <center> <!--จำนวนหน้าของข้อมูล-->
     <nav aria-label="Page navigation example">
             <ul class="pagination justify-content-center">
@@ -148,7 +147,5 @@
           </nav>
 </center>
 
-<div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;"><i></i></a></div>
-    <input name="animation" type="hidden">
    
 @endsection

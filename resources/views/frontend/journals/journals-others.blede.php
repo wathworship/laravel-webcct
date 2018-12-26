@@ -2,9 +2,6 @@
 
 @section('content')
 <section class="mbr-section content4 cid-rcsSH1EerQ" id="content4-v">
-
-    
-
     <div class="container">
         <div class="media-container-row align-center">
             <div class="title col-12 col-md-8">
@@ -17,9 +14,6 @@
 </section>
 
 <section class="mbr-section content8 cid-rcsWc7NBvT" id="content8-x">
-
-    
-
     <div class="align-items-center">
         <div class="media-container-row title">
             <div class="col-12 col-md-8">
@@ -147,6 +141,5 @@
     </div>
 </section>
 
-<div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;"><i></i></a></div>
-    <input name="animation" type="hidden">
+
 @endsection
