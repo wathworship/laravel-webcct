@@ -30,16 +30,16 @@
                     <div class="media-container-row">
                         <div class="container card-box1">
                             <h5>พันธกิจเผยแพร่และพัฒนาคริสตจักร</h5> 
-                            <div id="accordion"> 
+                            <div id="accordion-one"> 
                                 <div class="card text-left">
                                     <div class="card-header" id="headingOne">
                                         <h5 class="mb-0">
                                         <button class="btn btn-link" data-toggle="collapse" data-target="#shear" aria-expanded="true" aria-controls="shear">
-                                            พันธกิจเผยแพร่พระกิตติคุณ
+                                            <i class="fas fa-angle-down fa-2x"></i> &nbsp;&nbsp;  พันธกิจเผยแพร่พระกิตติคุณ
                                         </button>
                                         </h5>         
                                     </div>
-                                    <div id="shear" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                    <div id="shear" class="collapse" aria-labelledby="headingOne" data-parent="#accordion-one">
                                         <div class="card-body">
                                                 1.	สนับสนุนและส่งเสริมให้คริสเตียนทุกคนรู้จักการเผยแพร่พระกิตติคุณ <br>
                                                 2.	สนับสนุนและส่งเสริมด้านการศึกษาทั้งในคริสตจักรและสถาบัน<br>
@@ -49,11 +49,11 @@
                                     <div class="card-header" id="headingTwo">
                                         <h5 class="mb-0">
                                         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#servic" aria-expanded="false" aria-controls="servic">
-                                            หน่วยงานพัฒนาและบริการสังคม
+                                            <i class="fas fa-angle-down fa-2x"></i> &nbsp;&nbsp; หน่วยงานพัฒนาและบริการสังคม
                                         </button>
                                         </h5>
                                     </div>
-                                    <div id="servic" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                                    <div id="servic" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion-one">
                                         <div class="card-body">
                                             1.	สนับสนุนและส่งเสริมให้คริสเตียนเข้าใจคุณค่าชีวิตที่สมบูรณ์ในพระเยซูคริสต์ เรียนรู้ที่จะพึ่งตนเอง และใช้สิ่งที่ตนมีให้เป็นประโยชน์ต่อคริสตจักรและชุมชน<br>
                                             2.	สนับสนุนและส่งเสริมคริสตจักรให้มีศักยภาพ สามารถพัฒนาตนเองและชุมชน<br>
@@ -63,11 +63,11 @@
                                     <div class="card-header" id="headingThree">
                                         <h5 class="mb-0">
                                         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#lamp" aria-expanded="false" aria-controls="lamp">
-                                            หน่วยงานประทีปไทย
+                                            <i class="fas fa-angle-down fa-2x"></i> &nbsp;&nbsp;  หน่วยงานประทีปไทย
                                         </button>
                                         </h5>
                                     </div>
-                                    <div id="lamp" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                                    <div id="lamp" class="collapse" aria-labelledby="headingThree" data-parent="#accordion-one">
                                         <div class="card-body">
                                             1.	สนับสนุนและส่งเสริมให้คริสเตียนทุกคนรู้จักการเผยแพร่พระกิตติคุณ <br>
                                             2.	สนับสนุนและส่งเสริมด้านการศึกษาทั้งในคริสตจักรและสถาบัน<br>
@@ -82,16 +82,16 @@
                 <div class="card p-3 col-12 col-md-6">
                     <div class="container card-box1">
                         <h5>พันธกิจอภิบาลชีวิตคริสเตียน</h5>
-                        <div id="accordion"> 
+                        <div id="accordion-two"> 
                             <div class="card text-left">
                                 <div class="card-header" id="headingOne">
                                     <h5 class="mb-0">
-                                        <button class="btn btn-link" data-toggle="collapse" data-target="#crits" aria-expanded="true" aria-controls="crits">
-                                            หน่วยงานศิษยาภิบาล
+                                        <button class="btn btn-link" data-toggle="collapse" data-target="#crits" aria-expanded="false" aria-controls="crits">
+                                            <i class="fas fa-angle-down fa-2x"></i> &nbsp;&nbsp; หน่วยงานศิษยาภิบาล
                                         </button>
                                     </h5>
                                 </div>
-                                <div id="crits" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                <div id="crits" class="collapse" aria-labelledby="headingOne" data-parent="#accordion-two">
                                     <div class="card-body">
                                         1.	สนับสนุนและส่งเสริมให้คริสตจักรจัดหาและเตรียมบุคลากรทุกระดับ เพื่อพัฒนาเป็นศิษยาภิบาล<br>
                                         2.	สนับสนุนและส่งเสริมให้ศิษยาบาลทุกระดับ มีความรู้ ความเข้าใจด้านศาสนศาสตร์อย่างถูกต้อง<br>
@@ -101,11 +101,11 @@
                                 <div class="card-header" id="headingTwo">
                                     <h5 class="mb-0">
                                     <button class="btn  btn-link collapsed" data-toggle="collapse" data-target="#women" aria-expanded="false" aria-controls="women">
-                                        หน่วยงานสตรี
+                                        <i class="fas fa-angle-down fa-2x"></i> &nbsp;&nbsp;  หน่วยงานสตรี
                                     </button>
                                     </h5>
                                 </div>
-                                <div id="women" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                                <div id="women" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion-two">
                                     <div class="card-body">
                                     สนับสนุนและส่งเสริมให้สตรีคริสเตียนมีบทบาทความรับผิดชอบในการเป็นพยานขององค์พระเยซูคริสต์ 
                                     ทั้งในคริสตจักรและชุมชน โดยมีเป้าหมายให้สตรีคริสเตียนสภาคริสตจักรในประเทศไทยมีความเชื่อที่
@@ -115,11 +115,11 @@
                                 <div class="card-header" id="headingThree">
                                     <h5 class="mb-0">
                                     <button class="btn  btn-link collapsed" data-toggle="collapse" data-target="#genaration" aria-expanded="false" aria-controls="genaration">
-                                        หน่วยงานอนุชน
+                                        <i class="fas fa-angle-down fa-2x"></i> &nbsp;&nbsp;  หน่วยงานอนุชน
                                     </button>
                                     </h5>
                                 </div>
-                                <div id="genaration" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                                <div id="genaration" class="collapse" aria-labelledby="headingThree" data-parent="#accordion-two">
                                     <div class="card-body">
                                         สนับสนุนและส่งเสริมให้เยาวชนคริสเตียนมีบทบาทหน้าที่รับผิดชอบในการเป็นพยานของพระเยซูคริสต์ ทั้งในคริสตจักรและชุมชน
                                     </div>
@@ -128,7 +128,6 @@
                         </div>    
                     </div>
                 </div> 
-
             </div>
         </div>
     </div>
@@ -138,16 +137,16 @@
                 <div class="card p-3 col-12 col-md-6">  
                     <div class="container card-box1">
                         <h5>พันธกิจการคลังและทรัพย์สิน</h5> 
-                        <div id="accordion"> 
+                        <div id="accordion-three"> 
                             <div class="card text-left">
                                 <div class="card-header" id="headingOne">
                                     <h5 class="mb-0">
                                     <button class="btn btn-link" data-toggle="collapse" data-target="#accounting" aria-expanded="true" aria-controls="accounting">
-                                        หน่วยงานการบัญชี การเงิน
+                                        <i class="fas fa-angle-down fa-2x"></i> &nbsp;&nbsp;  หน่วยงานการบัญชี การเงิน
                                     </button>
                                     </h5>         
                                 </div>
-                                <div id="accounting" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                <div id="accounting" class="collapse" aria-labelledby="headingOne" data-parent="#accordion-three">
                                     <div class="card-body"><U>ด้านการบัญชี</u> <br>
                                         1.	รับผิดชอบตรวจสอบการรับเงินประจำวัน การจ่ายเงินค่าใช้จ่ายต่างๆ ตลอดจนตรวจทานใบสำคัญสั่งจ่าย
                                         2.	รับผิดชอบการจัดทำงบการเงิน ได้แก่ งบทอลอง งบดุล งบรายได้ ค่าใช้จ่ายของหน่วนงาน สถาบัน การจัดทำงบประมาณ การติดตามการใช้จ่าย และงบกระแสเงินสด การวางระบบบัญชีให้เป็นไปตามมาตรฐานการบัญชี ตลอดจนสามารถทำแผนการเงินของหน่วยงานและสถาบัน <br>
@@ -162,11 +161,11 @@
                                 <div class="card-header" id="headingTwo">
                                     <h5 class="mb-0">
                                     <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#asset" aria-expanded="false" aria-controls="asset">
-                                        หน่วยงานทรัพย์สิน
+                                        <i class="fas fa-angle-down fa-2x"></i> &nbsp;&nbsp; หน่วยงานทรัพย์สิน
                                     </button>
                                     </h5>
                                 </div>
-                                <div id="asset" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                                <div id="asset" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion-three">
                                     <div class="card-body">                                
                                         1.	ควบคุมดูแลและดำเนินการเกี่ยวกับทรัพย์สินของคริสตจักร สถาบัน และหน่วยงานในสังกัดสภาคริสตจักรในประเทศไทย<br>
                                         2.	สนับสนุนและส่งเสริมให้มีการพัฒนาที่ดินและทรัพย์สินของทุกคริสตจักร หน่วยงาน และสถาบันในสังกัดสภาคริสตจักรในประเทศไทย<br>
@@ -176,11 +175,11 @@
                                 <div class="card-header" id="headingThree">
                                     <h5 class="mb-0">
                                     <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#welfare" aria-expanded="false" aria-controls="welfare">
-                                            หน่วยงานสวัสดิการ
+                                        <i class="fas fa-angle-down fa-2x"></i> &nbsp;&nbsp; หน่วยงานสวัสดิการ
                                     </button>
                                     </h5>
                                 </div>
-                                <div id="welfare" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                                <div id="welfare" class="collapse" aria-labelledby="headingThree" data-parent="#accordion-three">
                                     <div class="card-body">                               
                                             1.	รับผิดชอบ ดูแล รวบรวมเงินสะสมต่างๆ ของบุคลากรเพื่อบริหารการเงินให้เป็นประโยชน์แก่บุคลากรที่เป็นสมาชิก<br>
                                             2.	จัดให้มีสวัสดิการต่างๆ ตามความเหมาะสมแก่สมาชิก เช่น บำเหน็จ บำนาญ การบริการสุขภาพ และที่อยู่อาศัย ทั้งในขณะทำงานและหลังเกษียณอายุ<br>
@@ -196,16 +195,16 @@
                 <div class="card p-3 col-12 col-md-6">                    
                     <div class="container card-box1">
                         <h5>พันธกิจการศึกษา</h5> 
-                        <div id="accordion"> 
+                        <div id="accordion-four"> 
                             <div class="card text-left">
                                 <div class="card-header" id="headingOne">
                                     <h5 class="mb-0">
                                     <button class="btn btn-link" data-toggle="collapse" data-target="#education" aria-expanded="true" aria-controls="education">
-                                            พันธกิจการศึกษา
+                                        <i class="fas fa-angle-down fa-2x"></i> &nbsp;&nbsp; พันธกิจการศึกษา
                                     </button>
                                     </h5>         
                                 </div>
-                                <div id="education" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                <div id="education" class="collapse" aria-labelledby="headingOne" data-parent="#accordion-four">
                                     <div class="card-body">
                                         1.	เพื่อเป็นพยานแห่งความรักของพระเยซูคริสต์<br>
                                         2.	เพื่อให้ปรัชญาชีวิตสอคคล้องกับปรัชญาการศึกษาของสภาคริสตจักรในประเทศไทย<br>
@@ -218,16 +217,16 @@
                     </div> 
                     <div class="container card-box1">
                         <h5>พันธกิจการแพทย์</h5> 
-                        <div id="accordion"> 
+                        <div id="accordion-five"> 
                             <div class="card text-left">
                                 <div class="card-header" id="headingOne">
                                     <h5 class="mb-0">
                                     <button class="btn btn-link" data-toggle="collapse" data-target="#medical" aria-expanded="true" aria-controls="medical">
-                                            พันธกิจการแพทย์
+                                        <i class="fas fa-angle-down fa-2x"></i> &nbsp;&nbsp;  พันธกิจการแพทย์
                                     </button>
                                     </h5>         
                                 </div>
-                                <div id="medical" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                <div id="medical" class="collapse" aria-labelledby="headingOne" data-parent="#accordion-five">
                                     <div class="card-body">
                                         1.	ให้การบำบัดรักษาพยาบาลฟื้นฟูสุขภาพ การส่งเสริมสุขภาพ และการป้องกันการเจ็บป่วยทั้งร่างกาย จิตใจ สังคม และจิตวิญญาณแก่บุคคลทั่วไป<br>
                                         2.	พัฒนาสถาบันให้มีมาตรฐานและคุณภาพเป็นที่ยอมรับของสังคม และเป็นแบบอย่างที่ดีในการบริการรักษาพยาบาล<br>
@@ -243,7 +242,7 @@
 
             </div>
         </div>
-    </div>
+    </div
 </center>
 </section>
 @endsection

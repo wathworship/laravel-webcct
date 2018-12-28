@@ -5,7 +5,7 @@
     <div class="container align-center">
         <h2 class="mbr-section-title pb-3 mbr-fonts-style display-2"><strong>
             ข่าวประชาสัมพันธ์</strong><br><strong><br></strong></h2>
-        <div class="container timelines-container" mbri-timelines="">
+        <div class="container timelines-container" mbri-timelines=""> @foreach ($news as $new)
             <div class="row timeline-element reverse separline">      
                  <div class="timeline-date-panel col-xs-12 col-md-6  align-left">                         
                     <div class="card-wrapper ">
@@ -21,21 +21,22 @@
                 <div class="col-xs-12 col-md-6 align-left">
                     <div class="timeline-text-content">
                         <h4 class="mbr-timeline-title pb-3 mbr-fonts-style display-5">
-                            ประชุมคณะกรรมการอธิษฐานภาวนาเพื่อเอกภาพคริสตชน
+                            {{ ++$i }}
+                            {{ $new->title }}
                         </h4>
                         <p>วันที่ 16/11/2018</p><br>
-                        <p class="mbr-timeline-text mbr-fonts-style display-7">
-                        เมื่อวันที่ 15 พฤศจิกายน ค.ศ.2018 คณะกรรมการอธิษฐานภาวนาเพื่อเอกภาพคริสตชน ต้อนรับอธิบดีกรมการศาสนาคนใหม่
-                        ท่านกิตติพันธ์  พานสุวรรณ ซึ่งได้พบปะพูดคุยกับผู้บริหารสภาฯ และคณะกรรมการอธิษฐานภาวนาเพื่อเอกภาพคริสตชน 
-                        และเลี้ยงส่ง ศจ.ดร.รุ่ง เริงสันติ์อาจิณ ซึ่งมีตำแหน่งเป็นประธานของคณะกรรมการฯ
+                        <p class="mbr-timeline-text mbr-fonts-style display-7">                            
+                            {{ $new->description }}                            
+                         
                         </p>
                         <div class="mbr-section-btn text-center">
                             <a href="#" class="btn btn-secondary btn-sm"><span class="text-white display-4">อ่านเพิ่มเติม. . .</span></a>
                         </div>
                     </div>
                 </div>
-            </div>
-
+            </div> @endforeach
+           
+                      
             <div class="row timeline-element  separline">
                 <div class="timeline-date-panel col-xs-12 col-md-6 align-left">
                     <div class="time-line-date-content">
@@ -53,13 +54,10 @@
                 <div class="col-xs-12 col-md-6 align-left ">
                     <div class="timeline-text-content">
                         <h4 class="mbr-timeline-title pb-3 mbr-fonts-style display-5">                       
-                        พิธีไว้อาลัย คุณแม่ปราณี มิตรกูล
+                        {{ $new->title }}
                         </h4>
                         <p>วันที่ 12/11/2018</p><br>
-                        <p class="mbr-timeline-text mbr-fonts-style display-7">
-                        ระหว่างวันที่ 28 - 31 ตุลาคม ค.ศ.2018 บุคลากรสภาคริสตจักรฯ 
-                        ได้ร่วมพิธีไว้อาลัย คุณแม่ปราณี มิตรกูล (คุณแม่ของผป.สุรพงศ์ มิตรกูล) ณ คริสตจักรเบธเลเฮ็ม จ.นครศรีธรรมราช 
-                        </p>
+                        <p class="mbr-timeline-text mbr-fonts-style display-7">{{ $new->description }} </p>
                         <div class="mbr-section-btn text-center">
                             <a href="#" class="btn btn-secondary btn-sm"><span class="text-white display-4">อ่านเพิ่มเติม. . .</span></a>
                         </div>
@@ -85,13 +83,11 @@
                 <div class="col-xs-12 col-md-6 align-left">
                     <div class="timeline-text-content">
                         <h4 class="mbr-timeline-title pb-3 mbr-fonts-style display-5"> 
-                            การประชุมสมัชชาสตรีคริสเตียนสภาคริสตจักรในประเทศไทย ครั้งที่ 39
+                        {{ $new->title }}
                         </h4>  
                         <p>วันที่ 01/11/2018</p><br>    
                         <p class="mbr-timeline-text mbr-fonts-style display-7">
-                        การประชุมสมัชชาสตรีคริสเตียนสภาคริสตจักรในประเทศไทย ครั้งที่ 39 ณ โรงแรมเชียงใหม่ภูคำ วันที่ 17 - 20 ตุลาคม 2018 
-                        ในหัวข้อ เลือกชีวิตเพื่อวิถีและการกระทำเดี๋ยวนี้ การประชุมครั้งนี้มีผู้เข้าประมาณ 450 ท่าน
-                        </p>
+                        {{ $new->description }} </p>
                         <div class="mbr-section-btn text-center">
                             <a href="#" class="btn btn-secondary btn-sm"><span class="text-white display-4">อ่านเพิ่มเติม. . .</span></a>
                         </div>
@@ -116,12 +112,11 @@
                 <div class="col-xs-12 col-md-6 align-left ">
                     <div class="timeline-text-content">
                         <h4 class="mbr-timeline-title pb-3 mbr-fonts-style display-5">
-                        สัมนากรรมการบ้านและครอบครัว ปี 2018
+                        {{ $new->title }}
                         </h4>
                         <p>วันที่ 25/09/2018</p><br>
                         <p class="mbr-timeline-text mbr-fonts-style display-7">
-                        ระหว่างวันที่ 24 -25 กันยายน ค.ศ.2018 ฝ่ายบ้านและครอบครัว สภาคริสตจักรฯ 
-                        ได้จัดสัมมนาการบ้านและครอบครัว หัวข้อ "หลักการให้คำปรีกษาครอบครัวคริสเตียน" ณ อาคารสภาคริสตจักรในประเทศไทย กทม.
+                        {{ $new->description }} 
                         </p>
                         <div class="mbr-section-btn text-center">
                             <a href="#" class="btn btn-secondary btn-sm"><span class="text-white display-4">อ่านเพิ่มเติม. . .</span></a>
@@ -136,22 +131,8 @@
 </section>
 
 <br>
-<center> <!--จำนวนหน้าของข้อมูล-->
-    <nav aria-label="Page navigation example">
-            <ul class="pagination justify-content-center">
-              <li class="page-item disabled">
-                <a class="page-link" href="#" tabindex="-1">Previous</a>
-              </li>
-              <li class="page-item"><a class="page-link" href="#">1</a></li>
-              <li class="page-item"><a class="page-link" href="#">2</a></li>
-              <li class="page-item"><a class="page-link" href="#">3</a></li>
-              <li class="page-item">
-                <a class="page-link" href="#">Next</a>
-              </li>
-            </ul>
-          </nav>
-</center>
+{!! $news->links() !!}
 <br>
 
-   
+
 @endsection
