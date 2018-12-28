@@ -1,7 +1,7 @@
 @extends('frontend.layouts.main')
 
 @section('content')
-<section class="features9 cid-rc2D2OABlp" id="features9-2o">
+<section class="features9 cid-rc2D2OABlp" id="features9-2o"><br><br><br>
     <div class="container">
         <h2 class="align-center pb-3 mbr-fonts-style display-2">
             <strong>ดาวน์โหลด</strong></h2>

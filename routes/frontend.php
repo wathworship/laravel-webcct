@@ -16,9 +16,11 @@ Route::get('/tender','NewsController@tender');
 Route::get('/jobs','NewsController@jobs');
 Route::get('/detail','NewsController@detail');
 
-
-
-
+/* journals */
+Route::get('journalch','JournalsController@church');
+Route::get('journaloth','JournalsController@others');
+Route::get('journalre','JournalsController@relation');
+Route::get('journalup','JournalsController@upper');
 
 /* online*/
 Route::get('/online','OnlineController@online');
