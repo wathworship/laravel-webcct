@@ -12,13 +12,16 @@ Route::get('/history','AboutController@history');
 /* news */
 Route::resource('/news','NewController');
 
+/* journals */
+Route::get('journalch','JournalsController@church');
+Route::get('journaloth','JournalsController@others');
+Route::get('journalre','JournalsController@relation');
+Route::get('journalup','JournalsController@upper');
 
 /* articles */
 Route::get('/ganeral','articlesController@ganeral');
 Route::get('/sermonies','articlesController@sermonies');
 Route::get('/testimonies','articlesController@testimonies');
-
-
 
 
 /* online*/
