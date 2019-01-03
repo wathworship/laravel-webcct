@@ -2,14 +2,8 @@
 
 @section('content')
       
-<section class="engine">
-    <a >css templates</a>
-</section>
 
 <section class="carousel slide cid-rc76yhRH6f" data-interval="false" id="slider1-w">
-
-    
-
     <div class="full-screen">
         <div class="mbr-slider slide carousel" data-pause="true" data-keyboard="false" data-ride="false" data-interval="false">
             <ol class="carousel-indicators">
@@ -71,13 +65,11 @@
         </a>
     </div>
 </div>
-
 </section>
 
 <section class="counters1 counters cid-rbVNHWF1ki" id="counters1-q">
     <div class="mbr-overlay" style="opacity: 0.7; background-color: rgb(239, 239, 239);">
     </div>
-
     <div class="container">
         <h2 class="mbr-section-title pb-3 align-center mbr-fonts-style display-2"><strong>
             เกี่ยวกับ</strong></h2>
@@ -86,7 +78,8 @@
                 <div class="card p-3 align-center col-12 col-md-6 col-lg-3">
                     <div class="panel-item p-3">
                         <div class="card-img pb-3">
-                            <a href="{{url('mission')}}"><span class="mbr-iconfont mbri-globe-2" style="color: rgb(71, 65, 58); fill: rgb(71, 65, 58);"></span></a>
+                            <a href="{{url('mission')}}"><span class="mbr-iconfont fas fa-globe-asia fa-3x" style="color: rgb(71, 65, 58); fill: rgb(71, 65, 58);"></span></a>
+                            
                         </div>
 
                         <div class="card-text">
@@ -98,7 +91,7 @@
                 <div class="card p-3 align-center col-12 col-md-6 col-lg-3">
                     <div class="panel-item p-3">
                         <div class="card-img pb-3">
-                            <a href="{{url('structure')}}"><span class="mbr-iconfont mbri-bulleted-list" style="color: rgb(71, 65, 58); fill: rgb(71, 65, 58);"></span></a>
+                            <a href="{{url('structure')}}"><span class="mbr-iconfont fas fa-bezier-curve fa-3x" style="color: rgb(71, 65, 58); fill: rgb(71, 65, 58);"></span></a>
                         </div>
                         <div class="card-text">
                             <h3 class="pt-3 pb-3 mbr-fonts-style display-5">
@@ -111,7 +104,7 @@
                 <div class="card p-3 align-center col-12 col-md-6 col-lg-3">
                     <div class="panel-item p-3">
                         <div class="card-img pb-3">
-                            <a href="{{url('manager')}}"><span class="mbr-iconfont mbri-user" style="color: rgb(71, 65, 58); fill: rgb(71, 65, 58);"></span></a>
+                            <a href="{{url('manager')}}"><span class="mbr-iconfont fas fa-user-tie fa-3x" style="color: rgb(71, 65, 58); fill: rgb(71, 65, 58);"></span></a>
                         </div>
                         <div class="card-text">
                             <h3 class="pt-3 pb-3 mbr-fonts-style display-5">
@@ -145,14 +138,11 @@
         <div class="media-container-row">
             <div class="title col-12 col-md-8">
                 <h2 class="align-center pb-3 mbr-fonts-style display-2"><strong>
-                    ข่าวประชาสัมพันธ์</strong></h2>
-                
-                
+                    ข่าวประชาสัมพันธ์</strong></h2>                
             </div>
         </div>
     </div>
 </section>
-
 <section class="features8 cid-rbYJPe5G75" id="features8-u">
     <div class="container pt-4 mt-2">
         <div class="media-container-row">
@@ -164,7 +154,7 @@
                 <div class="card-box align-center">
                     <h4 class="card-title mbr-fonts-style display-5">
                         ข่าวประชาสัมพันธ์</h4>                    
-                    <div class="mbr-section-btn text-center"><a href="{{url('relations')}}" class="btn btn-secondary btn-sm">
+                    <div class="mbr-section-btn text-center"><a href="{{url('public')}}" class="btn btn-secondary btn-sm">
                         <span class="text-white display-4">อ่านเพิ่มเติม. . .</span></a>
                     </div>
                 </div>
@@ -301,8 +291,8 @@
                 <div class="card-wrapper ">
                     <div class="card-img">
                         <div class="mbr-overlay"></div>
-                        <div class="mbr-section-btn text-center"><a href="articles-general.html" class="btn btn-info display-4">อ่านบทความทั่วไป</a></div>
-                        <img src="assets/images/01.jpg" alt="Mobirise">
+                        <div class="mbr-section-btn text-center"><a href="{{url('ganeral')}}" class="btn btn-info display-4">อ่านบทความทั่วไป</a></div>
+                        <img src="assets/images/01.jpg" alt="#">
                     </div>
                     <div class="card-box">
                         <h4 class="card-title mbr-fonts-style display-5">
@@ -315,8 +305,8 @@
                 <div class="card-wrapper">
                     <div class="card-img">
                         <div class="mbr-overlay"></div>
-                        <div class="mbr-section-btn text-center"><a href="articles-sermons.html" class="btn btn-info display-4">อ่านคำเทศนา</a></div>
-                        <img src="assets/images/02.jpg" alt="Mobirise">
+                        <div class="mbr-section-btn text-center"><a href="{{url('sermonies')}}" class="btn btn-info display-4">อ่านคำเทศนา</a></div>
+                        <img src="assets/images/02.jpg" alt="#">
                     </div>
                     <div class="card-box">
                         <h4 class="card-title mbr-fonts-style display-5">
@@ -330,8 +320,8 @@
                 <div class="card-wrapper">
                     <div class="card-img">
                         <div class="mbr-overlay"></div>
-                        <div class="mbr-section-btn text-center"><a href="articles-testimonies.html" class="btn btn-info display-4">อ่านคำพยาน</a></div>
-                        <img src="assets/images/03.jpg" alt="Mobirise">
+                        <div class="mbr-section-btn text-center"><a href="{{url('testimonies')}}" class="btn btn-info display-4">อ่านคำพยาน</a></div>
+                        <img src="assets/images/03.jpg" alt="#">
                     </div>
                     <div class="card-box">
                         <h4 class="card-title mbr-fonts-style display-5">คำพยาน</h4>
@@ -436,5 +426,6 @@
         </div>
     </div>
 </section>
+
 
 @endsection

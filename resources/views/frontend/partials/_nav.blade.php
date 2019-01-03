@@ -11,11 +11,11 @@
         <div class="menu-logo">
             <div class="navbar-brand">
                 <span class="navbar-logo">
-                    <a href="https://mobirise.co">
+                    <a href="#">
                         <img src="assets/images/0.gif" alt="Mobirise" title="" style="height: 3.8rem;">
                     </a>
                 </span>
-                <span class="navbar-caption-wrap"><a class="navbar-caption text-primary display-4" href="https://mobirise.co">
+                <span class="navbar-caption-wrap"><a class="navbar-caption text-primary display-4" href="#">
                         สภาคริสตจักรในประเทศไทย</a></span>
             </div>
         </div>

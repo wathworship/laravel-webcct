@@ -4,7 +4,7 @@
         <div class="media-container-row content text-white">
             <div class="col-12 col-md-3">
                 <div class="media-wrap">
-                    <a href="https://mobirise.co/">
+                    <a href="#">
                         <img src="assets/images/0.gif" alt="Mobirise">
                     </a>
                     <p class="text-wite">สภาคริสตจักรในประเทศไทย</p>
@@ -50,33 +50,33 @@
             <div class="media-container-row mbr-white">
                 <div class="col-sm-6 copyright">
                     <p class="mbr-text mbr-fonts-style display-7">
-                        © สภาคริสตจักรในประเทศไทย. สงวนลิขสิทธิ์. <br> ออกแบบโดย: ฝ่ายสารสนเทศ สภาคริสตจักรในประเทศไทย
+                        © สภาคริสตจักรในประเทศไทย. สงวนลิขสิทธิ์. <br> ออกแบบโดย: <a href="https://www.facebook.com/cctinformation/" target="_blank">ฝ่ายสารสนเทศ สภาคริสตจักรในประเทศไทย </a>
                     </p>
                 </div>
                 <div class="col-md-6">
                     <div class="social-list align-right">
                         <div class="soc-item">
-                            <a href="https://twitter.com/mobirise" target="_blank">
+                            <a href="#" target="_blank">
                                 <span class="socicon-twitter socicon mbr-iconfont mbr-iconfont-social"></span>
                             </a>
                         </div>
                         <div class="soc-item">
-                            <a href="https://www.facebook.com/pages/Mobirise/1616226671953247" target="_blank">
+                            <a href="https://www.facebook.com/center.cct/" target="_blank">
                                 <span class="socicon-facebook socicon mbr-iconfont mbr-iconfont-social"></span>
                             </a>
                         </div>
                         <div class="soc-item">
-                            <a href="https://www.youtube.com/c/mobirise" target="_blank">
+                            <a href="#" target="_blank">
                                 <span class="socicon-youtube socicon mbr-iconfont mbr-iconfont-social"></span>
                             </a>
                         </div>
                         <div class="soc-item">
-                            <a href="https://instagram.com/mobirise" target="_blank">
+                            <a href="#" target="_blank">
                                 <span class="socicon-instagram socicon mbr-iconfont mbr-iconfont-social"></span>
                             </a>
                         </div>
                         <div class="soc-item">
-                            <a href="https://plus.google.com/u/0/+Mobirise" target="_blank">
+                            <a href="#" target="_blank">
                                 <span class="socicon-googleplus socicon mbr-iconfont mbr-iconfont-social"></span>
                             </a>
                         </div>                       
