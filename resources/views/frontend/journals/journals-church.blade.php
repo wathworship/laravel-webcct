@@ -28,14 +28,13 @@
      <section class="features18 popup-btn-cards cid-rbWtKEorV0" id="features18-z"> 
         <div class="container"> 
             <div class="row pt-4">
-
                 @foreach ($journals as $journal)
                 <div class="card p-3 col-12 col-md-6 col-lg-3">
                     <div class="card-wrapper align-center">
                         <div class="card-img">
                             <div class="mbr-overlay"></div>
                             <div class="mbr-section-btn text-center"><a target="_blank" href="pdf/journal/jn-ch/{{$journal->journals_file}}" class="btn btn-info display-4"><span class="mbri-download mbr-iconfont mbr-iconfont-btn"></span>ดาวน์โหลด</a></div>
-                            <img src="images/journal/journal-ch/{{$journal->journals_cover}}" alt="Mobirise">
+                            <img src="images/journal/journal-ch/{{$journal->journals_cover}}" alt="#">
                         </div>
                         <div class="card-box">
                             <h4 class="card-title mbr-fonts-style display-j">

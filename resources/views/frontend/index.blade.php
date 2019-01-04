@@ -64,7 +64,7 @@
                 <span class="sr-only">Next</span>
         </a>
     </div>
-</div>
+
 </section>
 
 <section class="counters1 counters cid-rbVNHWF1ki" id="counters1-q">
@@ -91,7 +91,7 @@
                 <div class="card p-3 align-center col-12 col-md-6 col-lg-3">
                     <div class="panel-item p-3">
                         <div class="card-img pb-3">
-                            <a href="{{url('structure')}}"><span class="mbr-iconfont fas fa-bezier-curve fa-3x" style="color: rgb(71, 65, 58); fill: rgb(71, 65, 58);"></span></a>
+                            <a href="{{url('structure')}}"><span class="mbr-iconfont fas fa-sitemap fa-3x" style="color: rgb(71, 65, 58); fill: rgb(71, 65, 58);"></span></a>
                         </div>
                         <div class="card-text">
                             <h3 class="pt-3 pb-3 mbr-fonts-style display-5">
@@ -117,7 +117,7 @@
                 <div class="card p-3 align-center col-12 col-md-6 col-lg-3">
                     <div class="panel-item p-3">
                         <div class="card-img pb-3">
-                            <a href="{{url('history')}}"><span class="mbr-iconfont mbri-opened-folder" style="color: rgb(71, 65, 58); fill: rgb(71, 65, 58);"></span></a>
+                            <a href="{{url('history')}}"><span class="mbr-iconfont fas fa-book fa-3x" style="color: rgb(71, 65, 58); fill: rgb(71, 65, 58);"></span></a>
                         </div>
 
                         <div class="card-texts">
@@ -154,7 +154,7 @@
                 <div class="card-box align-center">
                     <h4 class="card-title mbr-fonts-style display-5">
                         ข่าวประชาสัมพันธ์</h4>                    
-                    <div class="mbr-section-btn text-center"><a href="{{url('public')}}" class="btn btn-secondary btn-sm">
+                    <div class="mbr-section-btn text-center"><a href="{{url('news')}}" class="btn btn-secondary btn-sm">
                         <span class="text-white display-4">อ่านเพิ่มเติม. . .</span></a>
                     </div>
                 </div>
@@ -163,7 +163,7 @@
             <div class="card  col-12 col-md-6 col-lg-3">
                 <div class="card-img">
                     <a href="{{url('units')}}">
-                    <span class="mbr-iconfont mbri-image-gallery" style="color: rgb(47, 0, 47); fill: rgb(47, 0, 47);"></span></a>
+                    <span class="mbr-iconfont mbri-bulleted-list" style="color: rgb(47, 0, 47); fill: rgb(47, 0, 47);"></span></a>
                 </div>
                 <div class="card-box align-center">
                     <h4 class="card-title mbr-fonts-style display-5">ข่าวหน่วยงาน</h4>
@@ -176,13 +176,13 @@
 
             <div class="card  col-12 col-md-6 col-lg-3">
                 <div class="card-img">
-                    <a href="{{url('tender')}}">
+                    <a href="{{url('detail')}}">
                     <span class="mbr-iconfont mbri-file" style="color: rgb(47, 0, 47); fill: rgb(47, 0, 47);"></span></a>
                 </div>
                 <div class="card-box align-center">
                     <h4 class="card-title mbr-fonts-style display-5">ข่าวประกวดราคา</h4>
                     
-                    <div class="mbr-section-btn text-center"><a href="{{url('tender')}}" class="btn btn-secondary btn-sm">
+                    <div class="mbr-section-btn text-center"><a href="{{url('detail')}}" class="btn btn-secondary btn-sm">
                         <span class="text-white display-4">อ่านเพิ่มเติม. . .</span></a>
                     </div>
                 </div>
@@ -218,7 +218,7 @@
                 <div class="card p-3 align-center col-12 col-md-6 col-lg-3">
                     <div class="panel-item p-3">
                         <div class="card-img pb-3">
-                            <a href="{{url('journalch')}}"><span class="mbr-iconfont mbri-windows" style="color: rgb(71, 65, 58); fill: rgb(71, 65, 58);"></span></a>
+                            <a href="{{url('journalch')}}"><span class="mbr-iconfont fas fa-church fa-3x" style="color: rgb(71, 65, 58); fill: rgb(71, 65, 58);"></span></a>
                         </div>
 
                         <div class="card-text">
@@ -232,7 +232,7 @@
                 <div class="card p-3 align-center col-12 col-md-6 col-lg-3">
                     <div class="panel-item p-3">
                         <div class="card-img pb-3">
-                            <a href="{{url('journalup')}}"><span class="mbr-iconfont mbri-help" style="color: rgb(71, 65, 58); fill: rgb(71, 65, 58);"></span></a>
+                            <a href="{{url('journalup')}}"><span class="mbr-iconfont fas fa-grip-vertical fa-3x" style="color: rgb(71, 65, 58); fill: rgb(71, 65, 58);"></span></a>
                         </div>
                         <div class="card-text">
                             <h3 class="pt-3 pb-3 mbr-fonts-style display-5">
@@ -245,7 +245,7 @@
                 <div class="card p-3 align-center col-12 col-md-6 col-lg-3">
                     <div class="panel-item p-3">
                         <div class="card-img pb-3">
-                            <a href="{{url('journalre')}}"><span class="mbr-iconfont mbri-users" style="color: rgb(71, 65, 58); fill: rgb(71, 65, 58);"></span></a>
+                            <a href="{{url('journalre')}}"><span class="mbr-iconfont fas fa-handshake fa-3x" style="color: rgb(71, 65, 58); fill: rgb(71, 65, 58);"></span></a>
                         </div>
                         <div class="card-text">
                             <h3 class="pt-3 pb-3 mbr-fonts-style display-5">
@@ -259,7 +259,7 @@
                 <div class="card p-3 align-center col-12 col-md-6 col-lg-3">
                     <div class="panel-item p-3">
                         <div class="card-img pb-3">
-                            <a href="{{url('journaloth')}}"><span class="mbr-iconfont mbri-pages" style="color: rgb(79, 73, 67); fill: rgb(79, 73, 67);"></span></a>
+                            <a href="{{url('journaloth')}}"><span class="mbr-iconfont fas fa-book-open" style="color: rgb(79, 73, 67); fill: rgb(79, 73, 67);"></span></a>
                         </div>
 
                         <div class="card-texts">

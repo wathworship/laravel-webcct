@@ -46,10 +46,10 @@
 
             <div class="card  col-12 col-md-6 col-lg-3">
                 <div class="card-img">
-                    <a href="{{url('other')}}"><i class="fas fa-phone fa-6x" style="color: rgb(47, 0, 47); fill: rgb(47, 0, 47);"></i></a>
+                    <a href="{{url('others')}}"><i class="fas fa-phone fa-6x" style="color: rgb(47, 0, 47); fill: rgb(47, 0, 47);"></i></a>
                 </div>
                 <div class="card-box align-center">
-                    <a href="{{url('other')}}"><h4 class="card-title mbr-fonts-style display-5">
+                    <a href="{{url('others')}}"><h4 class="card-title mbr-fonts-style display-5">
                         ติดต่ออื่นๆ</h4></a>
                 </div>
             </div>

@@ -10,7 +10,11 @@ Route::get('/manager','AboutController@manager');
 Route::get('/history','AboutController@history');
 
 /* news */
-Route::resource('/news','NewController');
+Route::get('/news','NewController@index');
+Route::get('/units','NewController@units');
+Route::get('/jobs','NewController@่jobs');
+
+Route::get('/detail','NewController@detail');
 
 /* journals */
 Route::get('journalch','JournalsController@church');
@@ -35,6 +39,6 @@ Route::get('/contact','contactController@contact');
 Route::get('/office','contactController@office');
 Route::get('/education','contactController@education');
 Route::get('/medical','contactController@medical');
-Route::get('/other','contactController@other');
+Route::get('/others','contactController@others');
 
 

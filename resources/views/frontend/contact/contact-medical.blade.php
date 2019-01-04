@@ -7,18 +7,18 @@
             <h2 class="align-center pb-3 mbr-fonts-style display-2"><strong>
                     ติดต่อเรา</strong></h2><br>
             <!-- Nav tabs -->
-            <ul class="nav nav-tabs" role="tablist">
+            <ul class="nav nav-pills" role="tablist">
                 <li class="nav-item">
                 <a class="nav-link" href="{{url('office')}}">สำนักงาน</a>
                 </li>
                 <li class="nav-item">
-                <a href="{{url('education')}}" class="nav-link">สถาบันการศึกษา</a>
+                <a class="nav-link" href="{{url('education')}}">สถาบันการศึกษา</a>
                 </li>
-                <li class="nav-item active">
-                <a class="nav-link" href="{{url('medical')}}">สถาบันการแพทย์</a>
+                <li class="nav-item ">
+                <a class="nav-link active" href="{{url('medical')}}">สถาบันการแพทย์</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="{{url('other')}}">ติดต่ออื่นๆ</a>
+                <a class="nav-link" href="{{url('others')}}">ติดต่ออื่นๆ</a>
                 </li>
             </ul>
     </div><br><br>
