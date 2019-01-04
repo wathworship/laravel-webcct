@@ -13,7 +13,7 @@
                 <div class="col-xs-12 col-md-6 align-left">
                     <div class="timeline-text-content">
                         <b><h4 class="mbr-timeline-title pb-3 mbr-fonts-style display-5">(E-MAIL) ระบบอิเล็กทรอนิกส์</h4></b>
-                        <a class="mbr-timeline-text mbr-fonts-style display-7"><i class="fas fa-envelope fa-md"></i> https://mail.cct.or.th<br></a>
+                        <a href="https://mail.cct.or.th" class="mbr-timeline-text mbr-fonts-style display-7"><i class="fas fa-envelope fa-md"></i> https://mail.cct.or.th<br></a>
                         <a class="mbr-timeline-text mbr-fonts-style display-7"><i class="fas fa-download fa-md"></i> คู่มือการใช้งานระบบ<br></a>
                         <a class="mbr-timeline-text mbr-fonts-style display-7"><i class="fab fa-youtube fa-md"></i> วีดีโอสาธิตการใช้งานระบบ<br></a>
                      </div>
@@ -27,7 +27,7 @@
                 <div class="col-xs-12 col-md-6 align-left ">
                     <div class="timeline-text-content">
                         <h4 class="mbr-timeline-title pb-3 mbr-fonts-style display-5">(CCT HR)<br>ระบบตรวจสอบสิทธิ์รักษาพยาบาลสำหรับผู้รับใช้<br></h4>
-                        <a class="mbr-timeline-text mbr-fonts-style display-7"><i class="fas fa-hospital-symbol fa-md"></i> https://61.19.145.210.82<br></a>
+                        <a href="http://61.19.145.210:82" class="mbr-timeline-text mbr-fonts-style display-7"><i class="fas fa-hospital-symbol fa-md"></i> http://61.19.145.210:82<br></a>
                         <a class="mbr-timeline-text mbr-fonts-style display-7"><i class="fas fa-download fa-md"></i> คู่มือการใช้งานระบบ<br></a>
                         <a class="mbr-timeline-text mbr-fonts-style display-7"><i class="fab fa-youtube fa-md"></i> วีดีโอสาธิตการใช้งานระบบ<br></a>
                     </div>
@@ -41,7 +41,7 @@
                 <div class="col-xs-12 col-md-6 align-left">
                     <div class="timeline-text-content">
                         <h4 class="mbr-timeline-title pb-3 mbr-fonts-style display-5">(VDO CONFERENCE) <br>ระบบจองห้องประชุมออนไลน์</h4>      
-                        <a class="mbr-timeline-text mbr-fonts-style display-7"><i class="fas fa-users fa-md"></i> https://www.conference.cct.or.th&nbsp;<br></a>
+                        <a href="http://www.conference.cct.or.th" class="mbr-timeline-text mbr-fonts-style display-7"><i class="fas fa-users fa-md"></i> http://www.conference.cct.or.th&nbsp;<br></a>
                         <a class="mbr-timeline-text mbr-fonts-style display-7"><i class="fas fa-download fa-md"></i> คู่มือการใช้งานระบบ<br></a>
                         <a class="mbr-timeline-text mbr-fonts-style display-7"><i class="fab fa-youtube fa-md"></i> วีดีโอสาธิตการใช้งานระบบ<br></a>
                     </div>
@@ -55,7 +55,7 @@
                 <div class="col-xs-12 col-md-6 align-left ">
                     <div class="timeline-text-content">
                         <h4 class="mbr-timeline-title pb-3 mbr-fonts-style display-5">(CCT INFOPRO) ระบบบริหารงานโรงเรียน</h4>
-                        <a class="mbr-timeline-text mbr-fonts-style display-7"><i class="fas fa-school fa-md"></i> https://www.cct.in.th<br></a>
+                        <a href="http://www.cct.in.th" class="mbr-timeline-text mbr-fonts-style display-7"><i class="fas fa-school fa-md"></i> http://www.cct.in.th<br></a>
                         <a class="mbr-timeline-text mbr-fonts-style display-7"><i class="fas fa-download fa-md"></i> คู่มือการใช้งานระบบ<br></a>
                         <a class="mbr-timeline-text mbr-fonts-style display-7"><i class="fab fa-youtube fa-md"></i> วีดีโอสาธิตการใช้งานระบบ<br></a>
                     </div>
@@ -69,7 +69,7 @@
                 <div class="col-xs-12 col-md-6 align-left">
                     <div class="timeline-text-content">
                         <h4 class="mbr-timeline-title pb-3 mbr-fonts-style display-5">(BOOKINGCAR) ระบบจองรถออนไลน์</h4>
-                        <a class="mbr-timeline-text mbr-fonts-style display-7"> <i class="fas fa-car-side fa-md"></i> https://www.conference.cct.or.th<br></a>
+                        <a href="http://www.bookingcar.cct.or.th" class="mbr-timeline-text mbr-fonts-style display-7"> <i class="fas fa-car-side fa-md"></i> http://www.bookingcar.cct.or.th<br></a>
                         <a class="mbr-timeline-text mbr-fonts-style display-7"><i class="fas fa-download fa-md"></i> คู่มือการใช้งานระบบ<br></a>
                         <a class="mbr-timeline-text mbr-fonts-style display-7"><i class="fab fa-youtube fa-md"></i> วีดีโอสาธิตการใช้งานระบบ<br></a>
                     </div>
