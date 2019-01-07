@@ -26,62 +26,34 @@ class NewController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
+    public function units()
     {
-        //
+        $news = t_news::latest()->paginate(5);
+  
+        return view('frontend.news.news-units',compact('units'))
+            ->with('i', (request()->input('page', 1) - 1) * 5);
     }
 
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
-    public function store(Request $request)
+    public function jobs()
     {
-        //
+        return view('frontend.news.news-jobs');
     }
-
-    /**
-     * Display the specified resource.
-     *
-     * @param  \App\New  $new
-     * @return \Illuminate\Http\Response
-     */
+    
     public function show(News $new)
     {
         return view('frontend.news.news-detail',compact('news'));
     }
 
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  \App\New  $new
-     * @return \Illuminate\Http\Response
-     */
-    public function edit(News $new)
+    public function detail()
     {
-        //
+        return view('frontend.news.news-detail');
     }
 
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \App\New  $new
-     * @return \Illuminate\Http\Response
-     */
     public function update(Request $request, News $new)
     {
         //
     }
 
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  \App\New  $new
-     * @return \Illuminate\Http\Response
-     */
     public function destroy(News $new)
     {
         //

@@ -702,6 +702,16 @@ a:hover {
   top: 0;
   z-index: 0;
 }
+.mbr-detail {
+  background-color: #000;
+  bottom: 100;
+  left: 50;
+  opacity: .5;
+  position: absolute;
+  right: 50;
+  top: 20;
+  z-index: 0;
+}
 blockquote {
   font-style: italic;
   padding: 10px 0 10px 20px;
@@ -6598,6 +6608,7 @@ body {
   color: #82786e !important;
 }
 
+
 .cid-rc5Ys9vWI1 {
   padding-top: 120px;
   padding-bottom: 0px;
@@ -7635,6 +7646,7 @@ color: #2d0535;
   padding-top: 120px;
   padding-bottom: 30px;
   background-color: #f9f9f9;
+  
 }
 .cid-rc611wrrVx .mbr-section-subtitle {
   color: #767676;

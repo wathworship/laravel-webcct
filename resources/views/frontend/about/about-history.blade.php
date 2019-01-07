@@ -2,16 +2,34 @@
 
 
 @section('content')
-
-<section class="cid-rcs06PEMYr" id="image2-s">
-    <div class="align-center">
-            <space class="large"></space>
-            <h2 class="pb-3 mbr-fonts-style mbr-section-title display-2"><strong>ประวัติสภาคริสตจักรในประเทศไทย<br></strong><br></h2>
-    </div>
+<section class="mbr-section content4 features11 cid-rc5Trh2eua" id="features11-s">
+    <div class="container">
+        <div class="media-container-row">
+            <div class="title col-12 col-md-8">                
+                <h2 class="text-center pb-3 mbr-fonts-style display-2">
+                    <strong>ประวัติสภาคริสตจักรในประเทศไทย</strong>
+                </h2>
+                <ul class="nav nav-tabs" role="tablist">
+                    <li class="nav-item">
+                    <a class="nav-link" href="{{url('mission')}}">พันธกิจ</a>
+                    </li>
+                    <li class="nav-item active">
+                    <a href="{{url('structure')}}" class="nav-link">โครงสร้างองค์กร</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="{{url('manager')}}">คณะผู้บริหาร</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="{{url('history')}}">ประวัติศาสตร์</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div><br>    
     <div class="container align-left">
         <div class="row">
             <div class="hidden-xs">
-                <h3>รูปเส้นทางประวัติศาสตร์ของสภาคริสตจักรในประเทศไทย</h3>
+                <h4>รูปเส้นทางประวัติศาสตร์ของสภาคริสตจักรในประเทศไทย</h4>
                 <p>
                     <img src="assets/zoom_in.png" width="32" height="32" align="middle">
                     <font color="#FF6600">คลิกบนรูปภาพเพื่อขยาย</font>

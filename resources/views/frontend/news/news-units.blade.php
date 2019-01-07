@@ -24,11 +24,12 @@
                     <div class="col-xs-12 col-md-6 align-left">
                         <div class="timeline-text-content">
                             <h4 class="mbr-timeline-title pb-3 mbr-fonts-style display-5">
-                                ชื่อเรื่อง
+                                ชื่อเรื่อง   {{ ++$i }}
+                            {{ $new->title }}
                             </h4>
                             <p>วันที่</p><br>
                             <p class="mbr-timeline-text mbr-fonts-style display-7">
-                            เกริ่นนำ
+                            เกริ่นนำ {{ $new->description }}   
                             </p>
                             <div class="mbr-section-btn text-center">
                                 <a href="#" class="btn btn-secondary btn-sm"><span class="text-white display-4">อ่านเพิ่มเติม. . .</span></a>
