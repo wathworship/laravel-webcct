@@ -3,7 +3,7 @@
     <div class="container">
         <div class="media-container-row content text-white">
             <div class="col-12 col-md-3">
-                <div class="media-wrap">
+                <div class="media-wrap text-center">
                     <a href="#">
                         <img src="assets/images/0.gif" alt="Mobirise">
                     </a>
@@ -14,22 +14,22 @@
                 <h5 class="pb-3">
                     สำนักงานกรุงเทพฯ
                 </h5>
-                <p class="mbr-text">
+                
                     <p>320 ถนนพญาไท (เชิงสะพานหัวช้าง) แขวงถนนเพชรบุรี เขตราชเถวี กรุงเทพฯ 10400</p> 
                     <p>โทรศัพท์ 0-2214-6000 <br>
                     โทรสาร 0-2214-6012</p>                                  
-                </p>
+                
             </div>
             <div class="col-12 col-md-3 mbr-fonts-style display-7">
                 <h5 class="pb-3">
                         สำนักงานเชียงใหม่
                 </h5>
-                <p class="mbr-text">
+              
                     <p>29 อาคาร 75 ปี ถ.รัตน์โกสนทร์ <br>
                     ต.วัดเกต อ.เมือง จ.เชียงใหม่ 50000
                     <p>โทรศัพท์ 053-244381 <br>
                     โทรสาร 053-244385 ต่อ 404</p>                               
-                </p>
+                
             </div>
             <div class="col-12 col-md-3 mbr-fonts-style display-7">
                 <center>

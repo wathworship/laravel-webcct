@@ -22,7 +22,7 @@
                 <div class="card p-3 align-center col-12 col-md-6 col-lg-3">
                     <div class="panel-item p-3">
                         <div class="card-img pb-3">
-                            <a href="{{url('structure')}}"><span class="mbr-iconfont fas fa-bezier-curve fa-3x" style="color: rgb(71, 65, 58); fill: rgb(71, 65, 58);"></span></a>
+                            <a href="{{url('structure')}}"><span class="mbr-iconfont fas fa-sitemap fa-3x" style="color: rgb(71, 65, 58); fill: rgb(71, 65, 58);"></span></a>
                         </div>
                         <div class="card-text">
                             <h3 class="pt-3 pb-3 mbr-fonts-style display-5">
@@ -48,7 +48,7 @@
                 <div class="card p-3 align-center col-12 col-md-6 col-lg-3">
                     <div class="panel-item p-3">
                         <div class="card-img pb-3">
-                            <a href="{{url('history')}}"><span class="mbr-iconfont mbri-opened-folder" style="color: rgb(71, 65, 58); fill: rgb(71, 65, 58);"></span></a>
+                            <a href="{{url('history')}}"><span class="mbr-iconfont fas fa-book fa-3x" style="color: rgb(71, 65, 58); fill: rgb(71, 65, 58);"></span></a>
                         </div>
 
                         <div class="card-texts">

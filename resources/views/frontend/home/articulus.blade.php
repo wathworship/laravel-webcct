@@ -15,8 +15,8 @@
                 <div class="card-wrapper ">
                     <div class="card-img">
                         <div class="mbr-overlay"></div>
-                        <div class="mbr-section-btn text-center"><a href="{{url('ganeral')}}" class="btn btn-info display-4">อ่านบทความทั่วไป</a></div>
-                        <img src="assets/images/01.jpg" alt="#">
+                        <div class="mbr-section-btn text-center"><a href="{{url('https://www.youtube.com/embed/jz_d2kH-ylg')}}" class="btn btn-info display-4">อ่านบทความทั่วไป</a></div>
+                        <iframe width="100%" height="250" src="https://www.youtube.com/embed/jz_d2kH-ylg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                     <div class="card-box">
                         <h4 class="card-title mbr-fonts-style display-5">
@@ -29,8 +29,8 @@
                 <div class="card-wrapper">
                     <div class="card-img">
                         <div class="mbr-overlay"></div>
-                        <div class="mbr-section-btn text-center"><a href="{{url('sermonies')}}" class="btn btn-info display-4">อ่านคำเทศนา</a></div>
-                        <img src="assets/images/02.jpg" alt="#">
+                        <div class="mbr-section-btn text-center"><a href="{{url('https://www.youtube.com/embed/lj0E5u-Stxc')}}" class="btn btn-info display-4">อ่านคำเทศนา</a></div>
+                        <iframe width="100%" height="250" src="https://www.youtube.com/embed/lj0E5u-Stxc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                     <div class="card-box">
                         <h4 class="card-title mbr-fonts-style display-5">
@@ -44,8 +44,8 @@
                 <div class="card-wrapper">
                     <div class="card-img">
                         <div class="mbr-overlay"></div>
-                        <div class="mbr-section-btn text-center"><a href="{{url('testimonies')}}" class="btn btn-info display-4">อ่านคำพยาน</a></div>
-                        <img src="assets/images/03.jpg" alt="#">
+                        <div class="mbr-section-btn text-center"><a href="{{url('https://www.youtube.com/embed/hJmOFu3R5a8')}}" class="btn btn-info display-4">อ่านคำพยาน</a></div>
+                        <iframe width="100%" height="250" src="https://www.youtube.com/embed/hJmOFu3R5a8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                     <div class="card-box">
                         <h4 class="card-title mbr-fonts-style display-5">คำพยาน</h4>
