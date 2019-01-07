@@ -1,19 +1,14 @@
 @extends('frontend.layouts.main')
-
-
 @section('content')
 <section class="mbr-section content4 features11 cid-rc5Trh2eua" id="features11-s">
     <div class="container">
         <div class="media-container-row">
-            <div class="title col-12 col-md-8">                
-                <h2 class="text-center pb-3 mbr-fonts-style display-2">
-                    <strong>ประวัติสภาคริสตจักรในประเทศไทย</strong>
-                </h2>
-                <ul class="nav nav-tabs" role="tablist">
+            <div class="title col-12">
+                <ul class="nav nav-tabs nav-justified" role="tablist">
                     <li class="nav-item">
                     <a class="nav-link" href="{{url('mission')}}">พันธกิจ</a>
                     </li>
-                    <li class="nav-item active">
+                    <li class="nav-item ">
                     <a href="{{url('structure')}}" class="nav-link">โครงสร้างองค์กร</a>
                     </li>
                     <li class="nav-item">
@@ -25,24 +20,28 @@
                 </ul>
             </div>
         </div>
-    </div><br>    
-    <div class="container align-left">
-        <div class="row">
-            <div class="hidden-xs">
-                <h4>รูปเส้นทางประวัติศาสตร์ของสภาคริสตจักรในประเทศไทย</h4>
-                <p>
-                    <img src="assets/zoom_in.png" width="32" height="32" align="middle">
-                    <font color="#FF6600">คลิกบนรูปภาพเพื่อขยาย</font>
-                </p>
-                <span class='zoom' id='history_pic'>
-                    <img src='assets/images/cct_history.jpg' width='100%' height="300">
-                </span>                
-            </div>
-        </div> 
-    </div>       
-</section>
+        <br>
+        <div>
+            <h2 class="align-center pb-3 mbr-fonts-style display-2">
+                <strong>ประวัติศาสตร์</strong>
+            </h2>
+        </div>  
+    </div>
+        <div class="container align-left">
+            <div class="row">
+                <div class="hidden-xs">
+                    <h4>รูปเส้นทางประวัติศาสตร์ของสภาคริสตจักรในประเทศไทย</h4>
+                    <p>
+                        <img src="assets/zoom_in.png" width="32" height="32" align="middle">
+                        <font color="#FF6600">คลิกบนรูปภาพเพื่อขยาย</font>
+                    </p>
+                    <span class='zoom' id='history_pic'>
+                        <img src='assets/images/cct_history.jpg' width='100%' height="300">
+                    </span>                
+                </div>
+            </div> 
+        </div>     
 
-<section class="mbr-section article content1 cid-rcs1huoDsQ" id="content1-y">
     <div class="container align-left">
         <div class="row">
             <div class="display-7">

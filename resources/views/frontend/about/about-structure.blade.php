@@ -4,15 +4,12 @@
 <section class="mbr-section content4 cid-rc5Ys9vWI1" id="content4-t">
     <div class="container">
         <div class="media-container-row">
-            <div class="title col-12 col-md-8">
-                <h2 class="align-center pb-3 mbr-fonts-style display-2">
-                    <strong>โครงสร้างองค์กร</strong>
-                </h2>
-                <ul class="nav nav-tabs" role="tablist">
+            <div class="title col-12">
+                <ul class="nav nav-tabs nav-justified" role="tablist">
                     <li class="nav-item">
                     <a class="nav-link" href="{{url('mission')}}">พันธกิจ</a>
                     </li>
-                    <li class="nav-item active">
+                    <li class="nav-item ">
                     <a href="{{url('structure')}}" class="nav-link">โครงสร้างองค์กร</a>
                     </li>
                     <li class="nav-item">
@@ -23,6 +20,13 @@
                     </li>
                 </ul>
             </div>
+        </div>
+        <br>
+
+        <div>
+            <h2 class="align-center pb-3 mbr-fonts-style display-2">
+                <strong>โครงสร้างองค์กร</strong>
+            </h2>
         </div>
     </div>
 </section>

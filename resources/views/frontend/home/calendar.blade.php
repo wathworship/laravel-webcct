@@ -20,11 +20,34 @@
             
             <div class="col-md-5">
                     <div class="container">
-                            
+                            <table class="table table-hover display-4">
+                            <?php  
+                              $_month_name = array("01"=>"มกราคม",  "02"=>"กุมภาพันธ์",  "03"=>"มีนาคม",    
+                                  "04"=>"เมษายน",  "05"=>"พฤษภาคม",  "06"=>"มิถุนายน",    
+                                  "07"=>"กรกฎาคม",  "08"=>"สิงหาคม",  "09"=>"กันยายน",    
+                                  "10"=>"ตุลาคม", "11"=>"พฤศจิกายน",  "12"=>"ธันวาคม"); 
+                              
+                              $vardate=date('Y-m-d');
+                              $yy=date('Y');
+                              $mm =date('m');
+                              $dd=date('d'); 
+                              if ($dd<10){
+                                  $dd=substr($dd,1,2);
+                              }
+                                $date=" ".$_month_name[$mm]."  ค.ศ. ".$yy;
+                              //echo $date;
+                            ?>
+                              <thead>
+                                <tr>
+                                  <th>วันสำคัญประจำเดือน {{date($date)}}</th>
+                                </tr>
+                              </thead>
+                            </table>
                             <table class="table table-hover display-4">
                               <thead>
                                 <tr>
-                                  <th>วันที่</th>
+                                  <th>วันที่เริ่มต้น</th>
+                                  <th>วันที่สิ้นสุด</th>
                                   <th>รายการ</th>
                                 </tr>
                               </thead>
@@ -32,10 +55,12 @@
                               <tbody>
                               @foreach ($events as $event)
                               <?php
-                                $dt= strtotime($event->date_start);
+                                $ds= strtotime($event->date_start);
+                                $de= strtotime($event->date_end);
                               ?>
                                 <tr>
-                                  <td>{{ date('d', $dt) }}.{{date('M', $dt)}}.{{date('Y', $dt)}}</td>
+                                  <td>{{ date('d', $ds)}}</td>                           
+                                  <td>{{ date('d', $de)}}</td>
                                   <td>{{$event->event_name}}</td>
                                 </tr>
                               @endforeach

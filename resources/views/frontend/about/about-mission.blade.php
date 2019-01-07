@@ -6,15 +6,12 @@
 <section class="mbr-section content4 features11 cid-rc5Trh2eua" id="features11-s">
     <div class="container">
         <div class="media-container-row">
-            <div class="title col-12 col-md-8">                
-                <h2 class="text-center pb-3 mbr-fonts-style display-2">
-                    <strong>พันธกิจ</strong>
-                </h2>
-                <ul class="nav nav-tabs" role="tablist">
+            <div class="title col-12">
+                <ul class="nav nav-tabs nav-justified" role="tablist">
                     <li class="nav-item">
                     <a class="nav-link" href="{{url('mission')}}">พันธกิจ</a>
                     </li>
-                    <li class="nav-item active">
+                    <li class="nav-item ">
                     <a href="{{url('structure')}}" class="nav-link">โครงสร้างองค์กร</a>
                     </li>
                     <li class="nav-item">
@@ -26,14 +23,26 @@
                 </ul>
             </div>
         </div>
-    </div><br>
+        <br>
 
-    <div class="container">   
-        <div class="col-md-12">
+        <div>
+            <h2 class="align-center pb-3 mbr-fonts-style display-2">
+                <strong>โครงสร้างองค์กร</strong>
+            </h2>
+        </div>
+    </div>
+
+    <div class="container">
+    <div class="row">
+        <div class="col-md-6">
             <div class="media-container-row">
-                <div class="mbr-figure" style="width: 50%; margin-top:10%;">
+                <div class="mbr-figure" style="width: 100%; margin-top:10%;">
                     <img src="assets/images/female-hands-holding-a-bible-and-a-wooden-cross-53876-26369-626x458.jpg" alt="Mobirise" title="">
                 </div>
+            </div>
+        </div>       
+        <div class="col-md-6">
+            <div class="media-container-row">
                 <div class=" align-left aside-content">
                     <div class="block-content">
                         <div class="card p-3 pr-3">
@@ -104,7 +113,6 @@
                 </div>
             </div>
         </div> 
-
     </div>          
 </section>
 
