@@ -10,7 +10,9 @@
                 <div class="card p-3 align-center col-12 col-md-6 col-lg-3">
                     <div class="panel-item p-3">
                         <div class="card-img pb-3">
+
                             <a href="{{url('#')}}"><span class="mbr-iconfont fas fa-church fa-3x" style="color: rgb(71, 65, 58); fill: rgb(71, 65, 58);"></span></a>
+
                         </div>
 
                         <div class="card-text">
@@ -24,7 +26,9 @@
                 <div class="card p-3 align-center col-12 col-md-6 col-lg-3">
                     <div class="panel-item p-3">
                         <div class="card-img pb-3">
+
                             <a href="{{url('#')}}"><span class="mbr-iconfont fas fa-praying-hands fa-3x" style="color: rgb(71, 65, 58); fill: rgb(71, 65, 58);"></span></a>
+
                         </div>
                         <div class="card-text">
                             <h3 class="pt-3 pb-3 mbr-fonts-style display-5">
@@ -37,7 +41,9 @@
                 <div class="card p-3 align-center col-12 col-md-6 col-lg-3">
                     <div class="panel-item p-3">
                         <div class="card-img pb-3">
+
                             <a href="{{url('#')}}"><span class="mbr-iconfont fas fa-handshake" style="color: rgb(71, 65, 58); fill: rgb(71, 65, 58);"></span></a>
+
                         </div>
                         <div class="card-text">
                             <h3 class="pt-3 pb-3 mbr-fonts-style display-5">
@@ -50,13 +56,14 @@
 
                 <div class="card p-3 align-center col-12 col-md-6 col-lg-3">
                     <div class="panel-item p-3">
-                        <div class="card-img pb-3">
+
                             <a href="{{url('#')}}"><span class="mbr-iconfont fas fa-users" style="color: rgb(79, 73, 67); fill: rgb(79, 73, 67);"></span></a>
-                        </div>
+
 
                         <div class="card-texts">
                              <h3 class="pt-3 pb-3 mbr-fonts-style display-5">
-                                เอกสัมพันธ์</h3> 
+
+                                เอกสัมพันธ์</h3>
                         </div>
                     </div>
                     <a href="{{url('#')}}"><span class="d-block p-2 bg-primary text-white display-4">รายละเอียด . . .</span></a>
