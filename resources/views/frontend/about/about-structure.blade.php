@@ -29,21 +29,15 @@
             </h2>
         </div>
     </div>
-</section>
-
-
 <!--picture-->
-<section class="cid-rc1SeMUgO1" id="image3-1j">
+<center>
     <figure class="mbr-figure container">
         <div class="image-block" style="width: 80%;">
             <img src="assets/images/cct-organization-800x577.png" width="1400" alt="Mobirise" title="">                
         </div>
     </figure>
-</section>
 
-<!-- detill pantakit -->
-<section class="mbr-section content4 cid-rc5Ys9vWI1" id="content4-t">
-<center>
+
     <div class="content">
         <div class="container">
             <div class="row justify-content-center">

@@ -19,6 +19,7 @@
                         <iframe width="100%" height="250" src="https://www.youtube.com/embed/jz_d2kH-ylg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                     <div class="card-box">
+                    <a href="{{url('mission')}}"><span class="d-block p-2  text-white display-4">อ่านทั้งหมด</span></a>
                         <h4 class="card-title mbr-fonts-style display-5">
                             บทความทั่วไป</h4>
                         

@@ -33,8 +33,7 @@
                     <br>ถ.รัตน์โกสนทร์ ต.วัดเกต อ.เมือง จ.เชียงใหม่ 50000
                     <br> โทร: 0-5324-4381-2
                     <br> แฟกซ์: 0-5324-4381-2</p>
-                </div><br>
-
+                </div>
                 <div class="container">
                     <ul class="list-group">
                         <li class="list-group-item" style="padding-left:40px;">หน่วยงานเผยแพร่พระกิตติคุณ</a></li>
@@ -63,11 +62,10 @@
                 <div class="card-box">
                     <h4 class="card-title py-3 mbr-fonts-style display-5 align-center">สภาคริสตจักรในประเทศไทย กรุงเทพฯ</h4>
                     <p class="mbr-text mbr-fonts-style display-7">อาคารสภาคริสตจักรในประเทศไทย 
-                    <br>ถ.พญาไท เขตราชเทวี กรุงเทพฯ 10400
+                    <br>328 ถ.พญาไท เขตราชเทวี กรุงเทพฯ 10400
                     <br> โทร: 0-2214-6000-9
                     <br> แฟกซ์: 0-2214-6010</p>
-                </div><br>
-
+                </div>
                 <div class="container">
                     <ul class="list-group">
                         <li class="list-group-item" style="padding-left:40px;">หน่วยงานตรวจสอบบัญชีภายใน (กรุงเทพฯ)</a></li>
