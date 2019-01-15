@@ -16,10 +16,10 @@
         <div class="media-container-row title">
             <div class="col-12 col-md-8">
                 <div class="mbr-section-btn align-center">
-                    <a class="btn btn-secondary-outline display-j" href="{{url('journalch')}}">ข่าวคริสตจักร</a>
-                    <a class="btn btn-secondary-outline display-j" href="{{url('journalup')}}">ห้องชั้นบน</a> 
-                    <a class="btn btn-secondary display-j" href="{{url('journalre')}}">สานสัมพันธ์</a> 
-                    <a class="btn btn-secondary-outline display-j" href="{{url('journaloth')}}">วารสารอื่นๆ</a>
+                    <a class="btn btn-secondary-outline display-4" href="{{url('journalch')}}">ข่าวคริสตจักร</a>
+                    <a class="btn btn-secondary-outline display-4" href="{{url('journalup')}}">ห้องชั้นบน</a> 
+                    <a class="btn btn-secondary display-4" href="{{url('journalre')}}">สานสัมพันธ์</a> 
+                    <a class="btn btn-secondary-outline display-4" href="{{url('journaloth')}}">เอกสัมพันธ์</a>
                 </div>
             </div>
         </div>

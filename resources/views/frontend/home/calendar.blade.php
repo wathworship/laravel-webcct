@@ -39,15 +39,14 @@
                             ?>
                               <thead>
                                 <tr>
-                                  <th>วันสำคัญประจำเดือน {{date($date)}}</th>
+                                  <th><h5>วันสำคัญประจำเดือน {{date($date)}}</h5></th>
                                 </tr>
                               </thead>
                             </table>
                             <table class="table table-hover display-4">
                               <thead>
                                 <tr>
-                                  <th>วันที่เริ่มต้น</th>
-                                  <th>วันที่สิ้นสุด</th>
+                                  <th>วันที่เริ่มต้น</th>                                 
                                   <th>รายการ</th>
                                 </tr>
                               </thead>
