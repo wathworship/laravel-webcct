@@ -9,10 +9,10 @@
             <div class="title col-12">
                 <ul class="nav nav-tabs nav-justified" role="tablist">
                     <li class="nav-item">
-                    <a class="nav-link" href="{{url('mission')}}">พันธกิจ</a>
+                    <a class="nav-link active" href="{{url('mission')}}">พันธกิจ</a>
                     </li>
                     <li class="nav-item ">
-                    <a href="{{url('structure')}}" class="nav-link">โครงสร้างองค์กร</a>
+                    <a class="nav-link" href="{{url('structure')}}" >โครงสร้างองค์กร</a>
                     </li>
                     <li class="nav-item">
                     <a class="nav-link" href="{{url('manager')}}">คณะผู้บริหาร</a>
@@ -26,8 +26,8 @@
         <br>
 
         <div>
-            <h2 class="align-center pb-3 mbr-fonts-style display-2">
-                <strong>โครงสร้างองค์กร</strong>
+            <h2 class="align-center pb-3 mbr-fonts-style display-2 text-center">
+                <strong>พันธกิจ</strong>
             </h2>
         </div>
     </div>

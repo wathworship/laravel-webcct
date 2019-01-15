@@ -5,7 +5,7 @@
     <div class="container">
         <h2 class="align-center pb-3 mbr-fonts-style display-2"><strong>ติดต่อเรา</strong></h2><br>
             <!-- Nav tabs -->
-            <ul class="nav nav-pills" role="tablist">
+            <ul class="nav nav-tabs nav-justified" role="tablist">
                 <li class="nav-item">
                 <a class="nav-link active" href="{{url('office')}}">สำนักงาน</a>
                 </li>
@@ -63,7 +63,7 @@
                 <div class="card-box">
                     <h4 class="card-title py-3 mbr-fonts-style display-5 align-center">สภาคริสตจักรในประเทศไทย กรุงเทพฯ</h4>
                     <p class="mbr-text mbr-fonts-style display-7">อาคารสภาคริสตจักรในประเทศไทย 
-                    <br>ถ.พญาไท เขตราชเทวี กรุงเทพฯ 10400
+                    <br>328 ถ.พญาไท เขตราชเทวี กรุงเทพฯ 10400
                     <br> โทร: 0-2214-6000-9
                     <br> แฟกซ์: 0-2214-6010</p>
                 </div><br>

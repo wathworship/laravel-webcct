@@ -9,20 +9,20 @@
                     <a class="nav-link" href="{{url('mission')}}">พันธกิจ</a>
                     </li>
                     <li class="nav-item ">
-                    <a href="{{url('structure')}}" class="nav-link">โครงสร้างองค์กร</a>
+                    <a class="nav-link" href="{{url('structure')}}" >โครงสร้างองค์กร</a>
                     </li>
                     <li class="nav-item">
                     <a class="nav-link" href="{{url('manager')}}">คณะผู้บริหาร</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="{{url('history')}}">ประวัติศาสตร์</a>
+                    <a class="nav-link active" href="{{url('history')}}">ประวัติศาสตร์</a>
                     </li>
                 </ul>
             </div>
         </div>
         <br>
         <div>
-            <h2 class="align-center pb-3 mbr-fonts-style display-2">
+            <h2 class="align-center pb-3 mbr-fonts-style display-2 text-center">
                 <strong>ประวัติศาสตร์</strong>
             </h2>
         </div>  
@@ -30,7 +30,7 @@
         <div class="container align-left">
             <div class="row">
                 <div class="hidden-xs">
-                    <h4>รูปเส้นทางประวัติศาสตร์ของสภาคริสตจักรในประเทศไทย</h4>
+                    <h5>รูปเส้นทางประวัติศาสตร์ของสภาคริสตจักรในประเทศไทย</h5>
                     <p>
                         <img src="assets/zoom_in.png" width="32" height="32" align="middle">
                         <font color="#FF6600">คลิกบนรูปภาพเพื่อขยาย</font>

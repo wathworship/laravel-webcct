@@ -5,7 +5,7 @@
     <div class="container">
         <h2 class="align-center pb-3 mbr-fonts-style display-2"><strong>ติดต่อเรา</strong></h2><br>
             <!-- Nav tabs -->
-            <ul class="nav nav-pills" role="tablist">
+            <ul class="nav nav-tabs nav-justified" role="tablist">
                 <li class="nav-item">
                 <a class="nav-link" href="{{url('office')}}">สำนักงาน</a>
                 </li>
@@ -22,15 +22,16 @@
     </div><br>
 
     <div class="container">
-        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-            <li class="nav-item">
-                <a class="nav-link active" id="pills-others1-tab" data-toggle="pill" href="#pills-others1" role="tab" aria-controls="pills-others1" aria-selected="true"> บ้านพัก</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" id="pills-others2-tab" data-toggle="pill" href="#pills-others2" role="tab" aria-controls="pills-others2" aria-selected="false"> หน่วยงานอื่นๆ</a>
-            </li>
-        </ul><br>
-        
+        <div class="media-container-row">
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" id="pills-others1-tab" data-toggle="pill" href="#pills-others1" role="tab" aria-controls="pills-others1" aria-selected="true"> บ้านพัก</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="pills-others2-tab" data-toggle="pill" href="#pills-others2" role="tab" aria-controls="pills-others2" aria-selected="false"> หน่วยงานอื่นๆ</a>
+                </li>
+            </ul><br>
+        </div>    
         <div class="tab-content" id="pills-tabContent">
             <div class="tab-pane fade show active" id="pills-others1" role="tabpanel" aria-labelledby="pills-others1-tab">                            
                 <div class="row"> 

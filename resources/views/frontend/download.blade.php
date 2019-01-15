@@ -5,16 +5,18 @@
     <div class="container">
         <h2 class="align-center pb-3 mbr-fonts-style display-2">
             <strong>ดาวน์โหลด</strong></h2>
-        <!-- Nav tabs -->
-        <ul class="nav nav-tabs" role="tablist">
-          <li class="nav-item">
-            <a class="nav-link active" data-toggle="tab" href="#document">เอกสาร</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" data-toggle="tab" href="#devices">เครื่องมือ</a>
-          </li>
-        </ul>
-      
+        <!-- Nav tabs -->    
+            <ul class="nav nav-tabs nav-justified" role="tablist">
+                <li class="nav-item"></li>
+                <li class="nav-item">
+                    <a class="nav-link active" data-toggle="tab" href="#document">เอกสาร</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#devices">เครื่องมือ</a>
+                </li>
+                <li class="nav-item"></li>
+            </ul>
+       
         <!-- Tab panes -->
         <div class="tab-content">
           <div id="document" class="container tab-pane active"><br>

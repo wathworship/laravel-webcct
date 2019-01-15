@@ -10,7 +10,7 @@
 
 @include('frontend.home.journals')
 
-@include('frontend.home.articulus')
+@include('frontend.home.articles')
 
 @include('frontend.home.calendar')
 

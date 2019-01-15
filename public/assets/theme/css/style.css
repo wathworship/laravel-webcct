@@ -480,13 +480,26 @@ nav .mbr-section-btn {
 }
 
 .content-section-a{
+  padding-top:120px;
   background: #b3aef0a4;
+  padding-bottom:40px;
   }
   
   .card-box1 {
     display: block;
     padding: 4px;
+    padding-top:20px;
+    padding-bottom: 20px;
     margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  .card-box2 {
+    display: block;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
     line-height: 1.42857143;
     background-color: #fff;
     border: 1px solid #ddd;
