@@ -11,10 +11,10 @@
                     <a class="nav-link" href="{{url('mission')}}">พันธกิจ</a>
                     </li>
                     <li class="nav-item ">
-                    <a href="{{url('structure')}}" class="nav-link">โครงสร้างองค์กร</a>
+                    <a  class="nav-link" href="{{url('structure')}}">โครงสร้างองค์กร</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="{{url('manager')}}">คณะผู้บริหาร</a>
+                    <a class="nav-link active" href="{{url('manager')}}">คณะผู้บริหาร</a>
                     </li>
                     <li class="nav-item">
                     <a class="nav-link" href="{{url('history')}}">ประวัติศาสตร์</a>
